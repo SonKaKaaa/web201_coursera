@@ -1,0 +1,73 @@
+/* Reset cơ bản */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0px;
+}
+
+header, nav, main, footer {
+  margin-bottom: 5px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}
+
+h2 {
+  background-color: #1877F2;
+  color: white;
+
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-item {
+  font-size: 3rem;
+}
+.navbar-img {
+  width: 340px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.container-book {
+  border-bottom: 4px solid rgba(0,0,0,0.9);
+}
+
+.container-setup {
+  margin: 0 50px;
+}
